@@ -43,7 +43,7 @@
 			/>
 		</div>
 	</div>
-	<div class="swiper-button-next">
+	<!-- <div class="swiper-button-next">
 		<svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path d="M2 22L12 12L2 2" stroke="white" stroke-width="5" />
 		</svg>
@@ -52,7 +52,7 @@
 		<svg width="17" height="26" viewBox="0 0 17 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path d="M15 2L4 13L15 24" stroke="white" stroke-width="5" />
 		</svg>
-	</div>
+	</div> -->
 </div>
 
 <header
@@ -61,7 +61,7 @@
 	<h1 class="text-3xl font-bold md:text-4xl">Lorem ipsum dolor</h1>
 
 	<p
-		class="mx-auto mt-8 w-10/12 max-w-lg gap-6 leading-6 text-gray-200 md:w-full md:text-lg md:leading-7"
+		class="mx-auto mt-8 w-11/12 max-w-lg gap-6 leading-6 text-gray-200 sm:w-10/12 md:w-full md:text-lg md:leading-7"
 	>
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quos, impedit, repellendus
 		mollitia consequatur placeat onsectetur adipisicing.

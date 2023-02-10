@@ -1,6 +1,9 @@
 <script lang="ts">
+	import CtaSection from '$lib/components/sections/CtaSection.svelte';
 	import FIxedCta from '$lib/components/sections/FIxedCta.svelte';
+	import Footer from '$lib/components/sections/Footer.svelte';
 	import LandingScreen from '$lib/components/sections/LandingScreen.svelte';
+	import Navbar from '$lib/components/sections/Navbar.svelte';
 	import OtherCategories from '$lib/components/sections/OtherCategories.svelte';
 	import '$lib/styles/app.scss';
 
@@ -32,12 +35,14 @@
 	];
 </script>
 
+<Navbar />
+
 <LandingScreen />
 
 <FIxedCta />
 
-<section>
-	<div class="container mx-auto w-10/12 max-w-[1100px] grid-cols-2 gap-6 py-32 md:grid">
+<section id="about">
+	<div class="container mx-auto w-10/12 max-w-[1100px] grid-cols-2 gap-6 py-20 md:grid md:py-32">
 		<div class="h-[400px] w-full overflow-hidden rounded-md md:h-[600px]">
 			<img
 				class="h-full w-full object-cover"
@@ -74,8 +79,8 @@
 	</div>
 </section>
 
-<section>
-	<div class="container mx-auto w-10/12 max-w-[1100px] py-32">
+<section id="products" class="mt-12">
+	<div class="container mx-auto w-10/12 max-w-[1100px] py-10 md:py-20">
 		<h2
 			class="text-center text-2xl font-bold underline underline-offset-4 lg:text-3xl lg:underline-offset-8"
 		>
@@ -106,6 +111,10 @@
 </section>
 
 <OtherCategories />
+
+<CtaSection />
+
+<Footer />
 
 <style lang="postcss">
 	.image {
